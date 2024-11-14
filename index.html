@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="vitrine.css">
+    <title>Site Vitrine - Nomo Gabriel</title>
+</head>
+<body>
+
+    <!-- Navbar -->
+    <nav>
+        <a href="#accueil">Accueil</a> |
+        <a href="#livres">Livres</a> |
+        <a href="#services">Services</a> |
+        <a href="#avis">Avis</a> |
+        <a href="#contact">Contact</a> |
+        <a href="#aide">Aide</a>
+    </nav>
+
+    <!-- Hero Section -->
+    <header>
+        <h1>Bienvenue chez Nomo Gabriel - Ventes de Livres</h1>
+        <p>Découvrez une vaste collection de livres adaptés à tous les goûts, de la fiction aux essais en passant par la science-fiction.</p>
+        <div>
+            <img src="/images/young-student-learning-library.jpg" alt="Hero" width="600px" height="500px">
+        </div>
+    </header>
+
+    <!-- Section À propos -->
+    <section id="a-propos">
+        <h2>À propos</h2>
+        <p>Notre entreprise, Nomo Gabriel, est spécialisée dans la vente de livres divers, alliant passion et professionnalisme pour offrir une expérience de lecture unique. Depuis notre fondation, nous nous engageons à enrichir la vie des lecteurs en leur proposant une large sélection de livres de qualité, soigneusement sélectionnés pour répondre à toutes les préférences.</p>
+        <div>
+            <img src="/images/equipe.jpg" alt="Photo de l'équipe de Nomo Gabriel" class="equipe-photo" width="500px" height="500px">
+        </div>
+    </section>
+
+    
+    <!-- Section Mes Services -->
+    <section id="services">
+        <center><h2>Mes Services</h2></center>
+        <p>En tant que spécialiste en ventes de livres, je propose une large gamme de titres soigneusement sélectionnés pour répondre aux attentes de chaque lecteur. Voici les services offerts :</p>
+        <ul>
+            <li>Conseil personnalisé pour le choix de livres</li>
+            <li>Livraison rapide et soignée</li>
+            <li>Catalogue mis à jour régulièrement avec les dernières nouveautés</li>
+        </ul>
+    </section>
+
+
+
+    <!-- Section Avis Clients -->
+    <section id="avis">
+        <center><h2>Avis de Clients</h2></center>
+        <table >
+            <tr>
+                <td>
+                    <blockquote>
+                        <p>"Excellente qualité de service ! Je recommande vivement."</p>
+                        <footer> Mbassi Loic</footer>
+                    </blockquote>
+                </td>
+                <td>
+                    <blockquote>
+                        <p>"Une expérience agréable et professionnelle à chaque fois."</p>
+                        <footer> Eleonor Cassin</footer>
+                    </blockquote>
+                </td>
+                <td>
+                    <blockquote>
+                        <p>"Très satisfait du service, je reviendrai sans hésiter !"</p>
+                        <footer> Noukoua Maeva</footer>
+                    </blockquote>
+                </td>
+            </tr>
+        </table>
+    </section>
+
+    <!-- Section Galerie -->
+    <section class="galerie">
+        <center><h2>Galerie</h2></center>
+        <div id="livres">
+            <table>
+                <tr>
+                    <td>
+                        <div>
+                            <img src="https://images-na.ssl-images-amazon.com/images/I/51b5YG6Y1rL._SX329_BO1,204,203,200_.jpg" alt="Image Livre 1" width="150px" height="200px">
+                        </div>
+                    </td>
+                    <td>
+                        <div>
+                            <img src="https://images-na.ssl-images-amazon.com/images/I/81eB+7+CkUL._AC_UL200_SR200,200_.jpg" alt="Image Livre 2" width="150px" height="200px">
+                        </div>
+                    </td>
+                    <td>
+                        <div>
+                            <img src="/images/book-list.jpeg" alt="Image Livre 3" width="150px" height="200px">
+                        </div>
+                    </td>
+                    <td>
+                        <div>
+                            <img src="/images/book-child.jpeg" alt="Image Livre 3" width="150px" height="200px">
+                        </div>
+                    </td>
+                    <td>
+                        <div>
+                            <img src="https://images-na.ssl-images-amazon.com/images/I/51b5YG6Y1rL._SX329_BO1,204,203,200_.jpg" alt="Image Livre 1" width="150px" height="200px">
+                        </div>
+                    </td>
+                </tr>
+            </table>
+        </div>
+        
+    </section>
+
+    <!-- Section Contact -->
+    <section id="contact">
+        <center><h2>Contactez nous </h2></center>
+        <form action="#" method="post">
+            <table>
+                <tr>
+                    <td><label for="name">Nom :</label></td>
+                    <td><input type="text" id="name" name="name" required></td>
+                </tr>
+                <tr>
+                    <td><label for="email">Email :</label></td>
+                    <td><input type="email" id="email" name="email" required></td>
+                </tr>
+                <tr>
+                    <td><label for="message">Message :</label></td>
+                    <td><textarea id="message" name="message" rows="4" required></textarea></td>
+                </tr>
+                <tr>
+                    <td colspan="2"><button type="submit">Envoyer</button></td>
+                </tr>
+            </table>
+        </form>
+
+    </section>
+
+    <!-- Pied de Page -->
+    <footer>
+        <hr>
+        <div class="footer-content">
+            <div class="footer-left">
+                <p>© <span id="year">2024</span> Nomo Gabriel. Tous droits réservés.</p>
+                
+            </div>
+            <div>
+                <p><a href="#">Mentions légales</a></p>
+            </div>
+            <address class="footer-right">
+                <p><strong>Adresse :</strong> Polytech, Yaounde, Cameroun</p>
+                <p><strong>Téléphone :</strong> +237 573 456 789</p>
+                <p><strong>Suivez-nous :</strong> <a href="#">Facebook</a> | <a href="#">Instagram</a> | <a href="#">Twitter</a></p>
+            </address>
+        </div>
+    </footer>
+    
+
+</body>
+</html>
